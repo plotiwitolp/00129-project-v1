@@ -1,0 +1,175 @@
+/* reset */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a,
+h2,
+h3 {
+  text-decoration: none;
+}
+a:visited,
+h2:visited,
+h3:visited {
+  color: inherit;
+}
+a:active, a:focus,
+h2:active,
+h2:focus,
+h3:active,
+h3:focus {
+  outline: none;
+}
+
+ol,
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  border: none;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+input,
+textarea {
+  outline: none;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  margin: 0;
+}
+
+html,
+body {
+  line-height: 1;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+/*----------------*/
+section {
+  min-height: 700px;
+  border: 1px solid rgba(150, 237, 150, 0.4901960784);
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin: 5px 5px 20px;
+  margin: 5px 5px 20px;
+}
+
+section:target {
+  scroll-margin-top: 77px;
+  background-color: #bcbcbc;
+}
+
+header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  background-color: #3c3c3c;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.main {
+  width: 1024px;
+  min-height: 667px;
+  border: 1px solid rgba(173, 213, 173, 0.2509803922);
+  border-radius: 20px;
+  padding: 20px 25px;
+  margin: 5px 0 20px;
+}
+
+aside {
+  position: relative;
+  width: 200px;
+  margin: 0 15px;
+}
+
+aside nav {
+  position: sticky;
+  top: 60px;
+}
+
+.active {
+  background-color: #96ed96;
+  color: #fff;
+  border-radius: 7px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  margin: 5px;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 7px;
+}
+nav ul li a:hover {
+  background-color: rgba(150, 237, 150, 0.3176470588);
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer {
+  height: 200px;
+  background-color: #bcbcbc;
+}
+
+span.toc-title {
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+}
