@@ -19,7 +19,7 @@
                 <ul>
                     <li><a href="./"> Главная </a></li>
                     <li><a href="./portfolio.php"> Портфолио </a></li>
-                    <li><a href="./fordev.php"> Для разработчиков </a></li>
+                    <li><a href="./fordev.php"> Шпоргалка </a></li>
                     <li><a href="./contacts.php"> Контакты</a></li>
                 </ul>
             </nav>
