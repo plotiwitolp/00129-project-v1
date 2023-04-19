@@ -18,7 +18,6 @@
 <!-- start main -->
 <div class="main">
     <h1>Портфолио</h1>
-    .
 
 </div>
 <!-- end main -->
