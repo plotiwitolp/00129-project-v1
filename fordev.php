@@ -5,42 +5,57 @@
 <div class="secondnav">
     <nav>
         <ul>
-            <li><a href="#">Пункт 1</a></li>
-            <li><a href="#">Пункт 2</a></li>
-            <li><a href="#">Пункт 3</a></li>
-            <li><a href="#">Пункт 4</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">WordPress</a></li>
         </ul>
     </nav>
 </div>
 
-<!-- start меню по содержанию -->
-<aside class="toc">
-    <nav>
-        <ul>
-            <li><a href="#test1" class="active">О себе</a></li>
-            <li><a href="#test2">Портфолио</a></li>
-            <li><a href="#test8">Технологии</a></li>
-            <li><a href="#test7">Отзывы</a></li>
-            <li><a href="#test6">Преимущества</a></li>
-            <li><a href="#test4">Рассчитать стоимость сайта</a></li>
-            <li><a href="#test3">Подать заявку</a></li>
-            <li><a href="#test10">Контакты</a></li>
-        </ul>
-    </nav>
-</aside>
-<!-- end меню по содержанию -->
+<div class="main-wrapper main-wrapper_fordev">
 
-<!-- start main -->
-<div class="main">
-    <h1>Для разработчиков</h1>
+    <!-- start меню по содержанию -->
+    <aside class="toc toc_fordev">
+        <nav>
+            <ul>
+                <li><a href="#test1" class="active">HTML пункт 1</a></li>
+                <li><a href="#test2">HTML пункт 2</a></li>
+                <li><a href="#test8">HTML пункт 3</a></li>
+                <li><a href="#test7">HTML пункт 4</a></li>
+                <li><a href="#test6">HTML пункт 5</a></li>
+                <li><a href="#test4">HTML пункт 6</a></li>
+                <li><a href="#test3">HTML пункт 7</a></li>
+                <li><a href="#test10">HTML пункт 8</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- end меню по содержанию -->
+
+    <!-- start main -->
+    <div class="main">
+        <h1>Шпоргалка</h1>
+
+        <p>
+
+        </p>
+    </div>
+    <!-- end main -->
+
+    <!-- start меню по тегам -->
+    <aside class="tags tags_fordev">
+        <nav>
+            <ul>
+                <li><a href="#">Тег 1</a></li>
+                <li><a href="#">Тег 2</a></li>
+                <li><a href="#">Тег 3</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- end меню по тегам -->
+
 </div>
-<!-- end main -->
-
-<!-- start меню по тегам -->
-<?php require_once './templates/tags.php' ?>
-<!-- end меню по тегам -->
-
-
 <!-- start footer -->
 <?php require_once './footer.php' ?>
 <!-- end footer -->

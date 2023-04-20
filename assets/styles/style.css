@@ -83,13 +83,13 @@ section {
 }
 
 section:target {
-  scroll-margin-top: 77px;
+  scroll-margin-top: 80px;
   background-color: #0d100d;
 }
 
 header {
   position: fixed;
-  height: 50px;
+  height: 60px;
   width: 100%;
   top: 0;
   background-color: #3c3c3c;
@@ -114,7 +114,7 @@ main {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .main {
@@ -127,6 +127,12 @@ main {
 
 .secondnav {
   width: 100%;
+  background-color: #666666;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 99;
 }
 .secondnav ul {
   display: -webkit-box;
@@ -148,7 +154,12 @@ aside {
 
 aside nav {
   position: sticky;
-  top: 60px;
+  top: 80px;
+}
+
+.toc_fordev nav,
+.tags_fordev nav {
+  top: 130px;
 }
 
 .active {
@@ -164,9 +175,10 @@ nav ul li a {
   transition: background-color 0.2s ease-in-out;
   border-radius: 5px;
   line-height: 1.32em;
+  color: #fff;
 }
 nav ul li a:hover {
-  background-color: rgba(150, 237, 150, 0.3176470588);
+  background-color: rgba(111, 79, 34, 0.3176470588);
 }
 
 .main-nav {
@@ -194,4 +206,19 @@ span.toc-title {
   font-weight: 700;
   display: block;
   margin-bottom: 10px;
+}
+
+.main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-wrapper_fordev {
+  margin-top: 50px;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 1.32em;
 }

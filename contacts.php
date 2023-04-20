@@ -2,12 +2,16 @@
 <?php require_once './header.php' ?>
 <!-- end header -->
 
-<!-- start main -->
-<div class="main">
-    <h1>Контакты</h1>
+<div class="main-wrapper">
+
+    <!-- start main -->
+    <div class="main">
+        <h1>Контакты</h1>
+
+    </div>
+    <!-- end main -->
 
 </div>
-<!-- end main -->
 
 <!-- start footer -->
 <?php require_once './footer.php' ?>
