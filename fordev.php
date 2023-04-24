@@ -10,7 +10,6 @@
             <li><a href="#">JavaScript</a></li>
             <li><a href="#">PHP</a></li>
             <li><a href="#">WordPress</a></li>
-            <li><a href="./proba/p_001.php">Проба</a></li>
         </ul>
     </nav>
 </div>

@@ -44,7 +44,6 @@
                 </h2>
             </div>
         </section>
-
         <section id="reviews">
             <div class="section">
                 <h2>
@@ -86,7 +85,6 @@
         </section>
     </div>
     <!-- end главный контент -->
-
 </div>
 
 <!-- start footer -->
